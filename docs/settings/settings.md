@@ -1,11 +1,11 @@
 ---
 layout: default
-title: {Name}
+title: Settings
 nav_order: 3
 has_children: true
-permalink: /docs/{Name}
+permalink: /docs/settings
 ---
 
-# {Name}
+# Settings
 
 {: .fs-6 .fw-300 }
