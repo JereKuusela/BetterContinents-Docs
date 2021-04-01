@@ -6,15 +6,6 @@ nav_order: 4
 ---
 
 # Roughmap
-{: .no_toc }
-
-The project setting allows the use of standardized names for the image maps to enable automatically using them from a specified directory.
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ---
 

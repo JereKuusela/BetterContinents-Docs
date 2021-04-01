@@ -15,8 +15,8 @@ These settings affect the entire map.
   Contents
   </summary>
   {: .text-delta }
-  1. TOC
-  {:toc}
+1. TOC
+{:toc}
 </details>
 
 ---
