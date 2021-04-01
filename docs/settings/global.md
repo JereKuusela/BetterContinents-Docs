@@ -23,7 +23,7 @@ These settings affect the entire map.
 
 ## Enabled
 Whether this mod is enabled. If this is `false` when you create a new world then no features of Better Continents will affect that world. It disables BC Debug mode on that world as well.  
-Default `true`
+> Default `true`
 
 ## Continent Size
 Continent size.  

@@ -18,21 +18,21 @@ nav_order: 9
 </details>
 
 ## Max Ridge Height
-Max height of ridge features (set this to 0 to turn OFF ridges entirely)
+Max height of ridge features (set this to 0 to turn OFF ridges entirely).
 > Default `0.5`  
 > Range `0` to `1`
 
 ## Ridge Size
-Size of ridge features
+Size of ridge features.
 > Default `0.5`  
 > Range `0` to `1`
 
 ## Ridge Blend
-Smoothness of ridges blending into base terrain
+Smoothness of ridges blending into base terrain.
 > Default `0.5`  
 > Range `0` to `1`
 
 ## Ridge Amount
-How much ridges
+How much ridges.
 > Default `0.5`  
 > Range `0` to `1`
