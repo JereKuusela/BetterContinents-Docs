@@ -3,6 +3,14 @@ details {
     //width: 100%;
 }
 
+.examples {
+    background-color: rgb(24, 9, 58);
+}
+
+.console {
+    background-color: rgb(0, 58, 45);
+}
+
 details > summary {
     padding: 2px 6px;
     //background-color: purple-200;
@@ -13,13 +21,13 @@ details > summary {
 }
 
 details > p {
-    border-radius: 0 0 10px 10px;
+    //border-radius: 0 0 10px 10px;
     //background-color: purple-300;
     padding: 2px 6px;
     margin: 0;
     box-shadow: 3px 3px 4px black;
 }
 
-details[open] > summary {
-    //background-color: purple-300;
-}
+// details[open] > summary {
+//     //background-color: purple-300;
+// }
