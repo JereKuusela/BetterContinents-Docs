@@ -1,31 +1,29 @@
 details {
     font: 16px "Open Sans", Calibri, sans-serif;
-    padding: 6px;
-    margin: 6px 0px;
-}
-
-.examples {
+    margin: 6px;
+    }
+    
+    .examples {
     background-color: rgb(24, 9, 58);
-}
-
-.console {
+    }
+    
+    .console {
     background-color: rgb(0, 58, 45);
-}
-
-details > summary {
+    }
+    
+    details > summary {
     padding: 6px;
-    width: 100%;
     border: none;
     box-shadow: 1px 1px 1px black;
     cursor: pointer;
-}
-
-details > p {
-    border-radius: 0 0 10px 10px;
+    }
+    
+    details > p {
     padding: 6px;
     box-shadow: 1px 1px 1px black;
-}
-
-details[open] > summary {
+    }
+    
+    details[open] > summary {
     padding: 12px;
-}
+    }
+    
