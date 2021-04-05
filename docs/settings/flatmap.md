@@ -7,6 +7,9 @@ nav_order: 5
 
 # Flatmap
 
+### Requirements
+See [Image Requirements](../image-requirements.html) for the size and format requirements.
+
 ## Use Roughmap For Flatmap
 Use the flatmap as the rough map, but inverted (black rough map results in totally flat terrain).
 > Default true  

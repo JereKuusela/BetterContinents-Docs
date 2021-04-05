@@ -15,7 +15,7 @@ Setting
 The full path to a biomemap file to use. 
 
 ### Requirements
-See [Image Requirements](../image-requirements.html) for the size and format requirements. The file size (in bytes) is not important for the biomemap as the BetterContinents settings store the biomes, not the raw source image (like the [heightmap](heightmap.html) does).
+See [Image Requirements](../image-requirements.html) for the size and format requirements. The file size (in bytes) is not important for the biomemap as the BetterContinents settings store the calculated biomes, not the raw source image (like the [heightmap](heightmap.html) does).
 
 ### Biomemap Creation Hints
 
@@ -38,15 +38,15 @@ See [Image Requirements](../image-requirements.html) for the size and format req
 
 | Color | Value | Biome |
 |:---:|:---:|:---|
-| <div class="square" style="background-color: #0000FF"> | `#0000FF` | Ocean |
-| <div class="square" style="background-color: #00FF00"> | `#00FF00` | Meadows |
-| <div class="square" style="background-color: #007F00"> | `#007F00` | Black Forest |
-| <div class="square" style="background-color: #7F7F00"> | `#7F7F00` | Swamp |
-| <div class="square" style="background-color: #FFFFFF"> | `#FFFFFF` | Mountains |
-| <div class="square" style="background-color: #FFFF00"> | `#FFFF00` | Plains |
-| <div class="square" style="background-color: #7F7F7F"> | `#7F7F7F` | Mistlands |
-| <div class="square" style="background-color: #00FFFF"> | `#00FFFF` | Deep North |
-| <div class="square" style="background-color: #FF0000"> | `#FF0000` | Ash Lands |
+| ![](../images/biomes/ocean.png) | `#0000FF` | Ocean |
+| ![](../images/biomes/meadows.png) | `#00FF00` | Meadows |
+| ![](../images/biomes/black-forest.png) | `#007F00` | Black Forest |
+| ![](../images/biomes/swamp.png) | `#7F7F00` | Swamp |
+| ![](../images/biomes/mountains.png) | `#FFFFFF` | Mountains |
+| ![](../images/biomes/plains.png) | `#FFFF00` | Plains |
+| ![](../images/biomes/mistlands.png) | `#7F7F7F` | Mistlands |
+| ![](../images/biomes/deep-north.png) | `#00FFFF` | Deep North |
+| ![](../images/biomes/ash-lands.png) | `#FF0000` | Ash Lands |
 
 <details class="examples" markdown="block">
     <summary>
