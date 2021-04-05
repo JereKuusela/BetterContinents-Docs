@@ -18,11 +18,11 @@ If you specify a directory, the specific file path settings are all ignored, eve
 
 ### Filenames 
 
-| File Name         | Target Setting                                            |
-|:------------------|:----------------------------------------------------------|
-| `heightmap.png`   | [Heightmap File](settings/heightmap.html#heightmap-file)  |
-| `roughmap.png`    | [Roughmap File](settings/roughmap.html#roughmap-file)     |
-| `flatmap.png`     | [Flatmap File](settings/flatmap.html#flatmap-file)        |
-| `biomemap.png`    | [Biomemap File](settings/biomemap.html#biomemap-file)     |
-| `forestmap.png`   | [Forestmap File](settings/forest.html#forestmap-file)     |
-| `spawnmap.png`    | [Spawnmap File](settings/spawnmap.html#spawnmap-file)     |
+| File Name       | Target Setting                                  |
+|:----------------|:------------------------------------------------|
+| `heightmap.png` | [Heightmap File](heightmap.html#heightmap-file) |
+| `roughmap.png`  | [Roughmap File](roughmap.html#roughmap-file)    |
+| `flatmap.png`   | [Flatmap File](flatmap.html#flatmap-file)       |
+| `biomemap.png`  | [Biomemap File](biomemap.html#biomemap-file)    |
+| `forestmap.png` | [Forestmap File](forest.html#forestmap-file)    |
+| `spawnmap.png`  | [Spawnmap File](spawnmap.html#spawnmap-file)    |
