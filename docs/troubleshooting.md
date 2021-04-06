@@ -4,8 +4,14 @@ title: Troubleshooting
 nav_order: 2
 ---
 
+(work in progress)
+
 # Troubleshooting
 
-(work in progress)
-### {Question}
+### Question
 > {Answer}
+
+## Single Player
+
+## Dedicated Server
+

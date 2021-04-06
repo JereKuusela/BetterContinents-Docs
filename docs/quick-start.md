@@ -6,17 +6,24 @@ nav_order: 2
 
 # Quick Start
 
-## For Players
-Just follow the [setup guide](setup-guide.html), it also explains how to upload worlds to your server.  
+## All players will need to follow at least the client part of the [setup guide](setup-guide.html).  
+<br>
 
-That should be it.  
+# Then...
+## If you just want to play a world that someone else has created
+* The [setup guide](setup-guide.html) explains how to upload worlds to your server.  
+* That should be it.  
 
-## For Authors
-1. Follow the [setup guide](setup-guide.html)
-2. For a working example examine [my example map](https://www.nexusmods.com/valheim/mods/616) which includes the source Photoshop file as a separate download.
-3. To see an example of authoring a new map from scratch see [this video](https://www.youtube.com/watch?v=SuDieAlR6Kg) in which I use my [template file](https://www.nexusmods.com/valheim/mods/446?tab=files). Use the chapters to see different parts of the process I am using.
-4. To see how to take the exported image files from the previous step into the game, and create and verify the world see [this other video](https://www.youtube.com/watch?v=MzO_cl_mTLA).
-5. Check out the [settings](./settings/settings.html) so find out what the different config parameters do, and how to apply them using the console to a world, while in game.
+## If you want to improve on the vanilla world generation, but without making custom imagemaps
+* [Watch an example](https://youtu.be/SjUsNHKNhiw) of using the non-image features to improve and customize worlds. 
+* Check out the [settings](./settings/settings.html) to find out what the different config parameters do, and how to apply them using the console to a world, while in game.
+
+## If you want to create your own world with maximum control over terrain and spawns.
+* For a working example examine [my example map](https://www.nexusmods.com/valheim/mods/616) which includes the source Photoshop file as a separate download.
+* [Watch an example](https://youtu.be/SjUsNHKNhiw) of using the non-image features to improve and customize worlds. 
+* To see an example of authoring a image maps from scratch see [this video](https://www.youtube.com/watch?v=SuDieAlR6Kg) in which I use my [template file](https://www.nexusmods.com/valheim/mods/446?tab=files). Use the chapters to see different parts of the process I am using.
+* To see how to take the exported image files from the previous step into the game, and create and verify the world see [this other video](https://www.youtube.com/watch?v=MzO_cl_mTLA).
+* Check out the [settings](./settings/settings.html) to find out what the different config parameters do, and how to apply them using the console to a world, while in game.
 
 ### Tools
 I would recommend using Photoshop or [Krita](https://krita.org/en/download/krita-desktop/) for authoring, NOT GIMP, as GIMP does not support [non-destructive editing](https://helpx.adobe.com/uk/photoshop/using/nondestructive-editing.html) via layer effects.

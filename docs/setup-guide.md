@@ -15,8 +15,8 @@ Otherwise do this:
 1. **Install [Better Continents](https://www.nexusmods.com/valheim/mods/446?tab=files)** itself: place the `BetterContinents.dll` in the `BepInEx\plugins` directory.
 
 Optional but recommended if you want to make new worlds yourself:
-1. **Install the [BepInEx Configuration Manager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases)**. This gives you UI in game for changing configuration, otherwise you will need to edit text files to change settings.
-1. **Install the [SkToolbox](https://www.nexusmods.com/valheim/mods/8)**. This gives improved console behaviour that makes iterating on a new world a nicer experience.
+* **Install the [BepInEx Configuration Manager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases)**. This gives you UI in game for changing configuration, otherwise you will need to edit text files to change settings.
+* **Install the [SkToolbox](https://www.nexusmods.com/valheim/mods/8)**. This gives improved console behaviour that makes iterating on a new world a nicer experience.
 
 ## Dedicated Server
 1. **Stop your server.**
