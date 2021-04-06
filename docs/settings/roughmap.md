@@ -27,6 +27,8 @@ Console
 </summary>
 Command: `bc param r fn`
 <img src="../images/console/bc-param-r-fn.gif" />
+<br>
+<img src="../images/console/bc-param-r-fn-2.gif" />
 </details>
 
 ## Roughmap Blend
