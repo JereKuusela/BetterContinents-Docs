@@ -22,10 +22,18 @@ Contents
 ---
 
 ## Enabled
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Whether this mod is enabled. If this is `false` when you create a new world then no features of Better Continents will affect that world. It disables BC Debug mode on that world as well.  
 > Default `true`
 
 ## Continent Size
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Continent size.  
 > Default `0.5`  
 > Range `0` to `1`
@@ -39,6 +47,10 @@ Command: `bc param g cs`
 </details>
 
 ## Mountains Amount
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Mountains amount.  
 > Default `0.5`  
 > Range `0` to `1`
@@ -52,6 +64,10 @@ Command: `bc param g ma`
 </details>
 
 ## Sea Level Adjustment
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Modify sea level, which changes the land:sea ratio.  
 > Default `0.5`  
 > Range `0` to `1`
@@ -65,6 +81,10 @@ Command: `bc param g sl`
 </details>
 
 ## Ocean Channels
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Whether ocean channels should be enabled or not (useful to disable when using height map for instance).  
 > Default `true`
 
@@ -77,6 +97,10 @@ Command: `bc param g oc`
 </details>
 
 ## Rivers
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Whether rivers should be enabled or not.  
 > Default `true`
 
@@ -89,6 +113,10 @@ Command: `bc param g r`
 </details>
 
 ## Map Edge Drop-off
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Whether the map should drop off at the edges or not (consequences unknown!).  
 > Default `true`
 
@@ -101,6 +129,10 @@ Command: `bc param g me`
 </details>
 
 ## Mountains Allowed At Center
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Whether the map should allow mountains to occur at the map center (if you have default spawn then you should keep this unchecked).  
 > Default `false`
 > 
