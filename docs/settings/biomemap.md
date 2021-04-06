@@ -32,17 +32,19 @@ See [Image Requirements](../image-requirements.html) for the size and format req
 <summary>
 Biomemap Colors
 </summary>
-| Color | Value | Biome |
-|:---:|:---:|:---:|
-| ![](../images/biomes/ocean.png) | `#0000FF` | Ocean |
-| ![](../images/biomes/meadows.png) | `#00FF00` | Meadows |
-| ![](../images/biomes/black-forest.png) | `#007F00` | Black Forest |
-| ![](../images/biomes/swamp.png) | `#7F7F00` | Swamp |
-| ![](../images/biomes/mountains.png) | `#FFFFFF` | Mountains |
-| ![](../images/biomes/plains.png) | `#FFFF00` | Plains |
-| ![](../images/biomes/mistlands.png) | `#7F7F7F` | Mistlands |
-| ![](../images/biomes/deep-north.png) | `#00FFFF` | Deep North |
-| ![](../images/biomes/ash-lands.png) | `#FF0000` | Ash Lands |
+
+| Color                                  | Value     | Biome         |
+|:--------------------------------------:|:---------:|:-------------:|
+| ![](../images/biomes/ocean.png)        | `#0000FF` | Ocean         |
+| ![](../images/biomes/meadows.png)      | `#00FF00` | Meadows       |
+| ![](../images/biomes/black-forest.png) | `#007F00` | Black Forest  |
+| ![](../images/biomes/swamp.png)        | `#7F7F00` | Swamp         |
+| ![](../images/biomes/mountains.png)    | `#FFFFFF` | Mountains     |
+| ![](../images/biomes/plains.png)       | `#FFFF00` | Plains        |
+| ![](../images/biomes/mistlands.png)    | `#7F7F7F` | Mistlands     |
+| ![](../images/biomes/deep-north.png)   | `#00FFFF` | Deep North    |
+| ![](../images/biomes/ash-lands.png)    | `#FF0000` | Ash Lands     |
+
 </details>
 
 <details class="examples" markdown="block">
