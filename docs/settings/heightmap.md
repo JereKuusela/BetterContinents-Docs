@@ -8,11 +8,15 @@ nav_order: 3
 # Heightmap
 {: .no_toc }
 
+The heightmap allows direct control of the base height values for the whole map. It can blend with, or replace the base part of the vanilla proceduraly generation.  
+A heightmap of 4096 x 4096 results in each pixel representing about 4 x 4 meters in game (the map size is 20 km x 20 km).  
+The cloud layer in game has been determined to be at about 400 m above sealevel, meaning that an 8 bit heightmap (256 gray levels) can represent height differences of about 1.5 m. A 16 bit heightmap can represent height differences of less than  1 cm.  
+
 <details open markdown="block">
-  <summary>
-  Contents
-  </summary>
-  {: .text-delta }
+<summary>
+Contents
+</summary>
+{: .text-delta }
 1. TOC
 {:toc}
 </details>
@@ -20,11 +24,33 @@ nav_order: 3
 ---
 
 ## Heightmap File
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Path to a heightmap file to use.
 
+<details class="examples" markdown="block">
+<summary>
+Examples
+</summary>
+<img src="../images/maps/example-hm.png" width="200" />
+<img src="../images/maps/logo-heightmap.png" width="200" />
+<img src="../images/maps/me-heightmap.png" width="200" />
+</details>
+
+<details class="console" markdown="block">
+<summary>
+Console
+</summary>
+Command: `bc param h fn`
+<img src="../images/console/bc-param-h-fn.gif" />
+</details>
+
+
 ### Requirements
-* The height map image must be square, and one of these sizes: 32. 64, 128, 256, 512, 1024, 2048, 4096.
-* Most formats are supported, including HDR ones (anything Unity Texture Import supports). 
+See [Image Requirements](../image-requirements.html) for the size and format requirements.  
+8 or 16 bit grayscale Png of medium to high resolution would be a sensible format for a heightmap.  
 
 ### Where to get Heightmaps
 * Craft them from scratch in some package. People have used Photoshop, Krita, GIMP, Blender to good affect. 
@@ -46,19 +72,55 @@ Path to a heightmap file to use.
   * [Ridges Amount](ridges.html#ridges-amount) 0%
 
 ## Heightmap Amount
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 Multiplier of the height value from the heightmap file (more than 1 leads to higher max height than vanilla, good results are not guaranteed).  
 
 > Default `1`  
 > Range `0` to `5`
 
+<details class="console" markdown="block">
+<summary>
+Console
+</summary>
+Command: `bc param h am`
+<img src="../images/console/bc-param-h-am.gif" />
+</details>
+
 ## Heightmap Blend
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 How strongly to blend the heightmap file into the final result.  
 
 > Default `1`  
 > Range `0` to `1`
 
+<details class="console" markdown="block">
+<summary>
+Console
+</summary>
+Command: `bc param h bl`
+<img src="../images/console/bc-param-h-bl.gif" />
+</details>
+
 ## Heightmap Add
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 How strongly to add the heightmap file to the final result (usually you want to blend it instead).  
 
 > Default `0`  
 > Range `-1` to `1`
+
+<details class="console" markdown="block">
+<summary>
+Console
+</summary>
+Command: `bc param h ad`
+<img src="../images/console/bc-param-h-ad.gif" />
+</details>

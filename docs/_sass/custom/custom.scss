@@ -1,29 +1,28 @@
 details {
     font: 16px "Open Sans", Calibri, sans-serif;
     margin: 6px;
-    }
-    
-    .examples {
+}
+
+.examples {
     background-color: rgb(27, 19, 44);
-    }
-    
-    .console {
+}
+
+.console {
     background-color: rgb(11, 26, 22);
-    }
-    
-    details > summary {
+}
+
+details > summary {
     padding: 6px;
     border: none;
     box-shadow: 1px 1px 1px black;
     cursor: pointer;
-    }
-    
-    details > p {
+}
+
+details > p {
     padding: 6px;
     box-shadow: 1px 1px 1px black;
-    }
-    
-    details[open] > summary {
+}
+
+details[open] > summary {
     //padding: 12px;
-    }
-    
+}

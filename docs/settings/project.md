@@ -6,10 +6,15 @@ nav_order: 2
 ---
 
 # Project
-The project setting allows the use of standardized names for the image maps to enable automatically using them from a specified directory.
+The project setting allows the use of standardized names for the image maps to enable automatically using them from a specified directory. This works only from the config during world generation. Once the world is generated the console commands can be used to change the filepath for each image map separately.
 
 ---
+
 ## Directory
+{: .d-inline-block }
+Setting
+{: .label .label-green }
+
 This directory will load automatically any existing map files matching the correct names, overriding specific files specified below.  
 
 Only png is supported using this method, however png is the recommended format in general as it supports both 16 bit grayscale, and 8 bit RGB, and these cover the requirements of all the image types.  
