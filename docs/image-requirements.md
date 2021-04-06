@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Image Requirements
-nav_order: 1
+nav_order: 5
 ---
 
 # Image Requirements
