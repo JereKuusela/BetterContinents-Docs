@@ -84,9 +84,9 @@ See [Image Requirements](../image-requirements.html) for the size and format req
 <summary>
 Console
 </summary>
-Command: `bc param f fn`
+Command: `bc param fo fn`
 <br>
-<img src="../images/console/bc-param-f-fn.gif" />
+<img src="../images/console/bc-param-fo-fn.gif" />
 <br>
 <img src="../images/maps/black-white.png" width="200" />
 </details>
