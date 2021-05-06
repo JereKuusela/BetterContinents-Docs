@@ -87,8 +87,6 @@ Console
 Command: `bc param fo fn`
 <br>
 <img src="../images/console/bc-param-fo-fn.gif" />
-<br>
-<img src="../images/maps/black-white.png" width="200" />
 </details>
 
 ## Forestmap Multiply
