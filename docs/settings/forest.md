@@ -78,7 +78,7 @@ The forestmap controls the spawning of trees. By default this will only affect t
 
 ### Requirements
 See [Image Requirements](../image-requirements.html) for the size and format requirements.  
-8 bit grayscale Png of medium resolution would be a sensible format for a forestmap.  
+8 bit grayscale Png of medium resolution would be a sensible format for a forestmap. Image is using black as "no forest" zone and white as "forest" zone.   
 
 <details class="console" markdown="block">
 <summary>
