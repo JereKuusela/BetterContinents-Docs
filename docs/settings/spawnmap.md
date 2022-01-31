@@ -35,8 +35,7 @@ Spawn color chart
 ### Spawnmap Behaviour
 
 * All spawn positions specified in your spawnmap will be filled, even if they exceed the max number expected by the game, so you can always be sure that all your spawn locations will be filled.
-* The one caveat to this is that there is a limit if 1 instance of a location type to each "
-
+* The game will try and place all locations, prefering using the spawnmap positions first, then using its own placement system. The only way to have ONLY spawnmap positions filled is to place the same amount or more than the game wants to place. If you don't want that many on the map, then place them in the corners of the map where players cannot see or reach.
 
 ### Spawnmap Creation Hints
 
