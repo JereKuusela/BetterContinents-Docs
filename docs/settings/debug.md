@@ -5,9 +5,8 @@ parent: Settings
 nav_order: 11
 ---
 
-# Debug
-
 ## Debug Mode
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -15,6 +14,7 @@ Setting
 Automatically reveals the full map on respawn, enables cheat mode, and debug mode.
 
 ## Skip Default Location Placement
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
