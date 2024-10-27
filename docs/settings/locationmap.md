@@ -20,15 +20,9 @@ Path to the locationmap.png file (32 bit RGBA. medium resolution) and the locati
 Notes:
 
 * The image background should be black.
-* The location map colors must match *exactly* with the one specified in the table when it is loaded in game. Usually this shouldn't be a problem if you use high quality png.
+* The location map colors must match *exactly* with the one specified in the locationmap.txt file. Usually this shouldn't be a problem if you use high quality png.
 * The actual location position is chosen from all adjacent pixels in the spawnmap that have the same color. i.e. Every contiguous (not including diagonal) area of the same color is a single location, the final position of which is a randomly chosen pixel from with the area. So you need to separate spawn areas by at least one pixel of black to stop them registering as the same area.
 
-<details markdown="block">
-<summary>
-Spawn color chart
-</summary>
-<img src="../images/spawnmap-ref.png" />
-</details>
 
 ### Location map Behaviour
 
