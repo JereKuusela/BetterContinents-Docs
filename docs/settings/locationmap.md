@@ -5,28 +5,23 @@ parent: Color maps
 nav_order: 3
 ---
 
-# Spawnmap
+# Location map
 
 The spawnmap allows you to control where locations are placed when the world is created. The Spawn color chart below shows the various types of location that are supported, including all the start location, bosses, trader, and dungeons.
 
-## Spawnmap File
+## Location
 
 {: .d-inline-block }
 Setting
 {: .label .label-green }
 
-Path to a spawnmap file to use.
-
-### Requirements
-
-See [Image Requirements](../image-requirements.html) for the size and format requirements.  
-24 bit RGB Png of medium resolution would be a sensible format for a spawnmap.  
+Path to the locationmap.png file (32 bit RGBA. medium resolution) and the locationmap.txt file.
 
 Notes:
 
 * The image background should be black.
-* The spawnmap colors must match *exactly* with the one specified in the table when it is loaded in game. Usually this shouldn't be a problem if you use high quality png.
-* The actual spawn position is chosen from all adjacent pixels in the spawnmap that have the same color. i.e. Every contiguous (not including diagonal) area of the same color is a single spawn location, the final position of which is a randomly chosen pixel from with the area. So you need to separate spawn areas by at least one pixel of black to stop them registering as the same area.
+* The location map colors must match *exactly* with the one specified in the table when it is loaded in game. Usually this shouldn't be a problem if you use high quality png.
+* The actual location position is chosen from all adjacent pixels in the spawnmap that have the same color. i.e. Every contiguous (not including diagonal) area of the same color is a single location, the final position of which is a randomly chosen pixel from with the area. So you need to separate spawn areas by at least one pixel of black to stop them registering as the same area.
 
 <details markdown="block">
 <summary>
@@ -35,12 +30,12 @@ Spawn color chart
 <img src="../images/spawnmap-ref.png" />
 </details>
 
-### Spawnmap Behaviour
+### Location map Behaviour
 
-* All spawn positions specified in your spawnmap will be filled, even if they exceed the max number expected by the game, so you can always be sure that all your spawn locations will be filled.
-* The game will try and place all locations, prefering using the spawnmap positions first, then using its own placement system. The only way to have ONLY spawnmap positions filled is to place the same amount or more than the game wants to place. If you don't want that many on the map, then place them in the corners of the map where players cannot see or reach.
+* All location positions specified in your location map will be filled, even if they exceed the max number expected by the game, so you can always be sure that all your locations will be filled.
+* The game will try and place all locations, prefering using the location map first, then using its own placement system. The only way to have ONLY location map positions filled is to place the same amount or more than the game wants to place. If you don't want that many on the map, then place them in the corners of the map where players cannot see or reach.
 
-### Spawnmap Creation Hints
+### Location map Creation Hints
 
 * Bring the spawn color table into your paint tool as a separate layer, or tabbed image, for easy access. Use the eye dropper on it to quickly select a spawn color.
 * Draw spawn areas using a pencil tool NOT brush, as you want a hard edge and no color variation. Use a size that can be seen easily without having to zoom in. Slight randomization of the spawn location won't matter (see the example images).
