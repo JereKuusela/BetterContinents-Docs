@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Moss map
-parent: Grey maps
-nav_order: 13
+nav_order: 11
 ---
 
 ## Moss map

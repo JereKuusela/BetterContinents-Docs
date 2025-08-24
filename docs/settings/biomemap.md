@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Biome map
-parent: Color maps
-nav_order: 1
+nav_order: 5
 ---
 
 ## Biome map

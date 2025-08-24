@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Heat map
-parent: Grey maps
+title: Heatmap
 nav_order: 13
 ---
 

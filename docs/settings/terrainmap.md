@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Terrain map
-parent: Color maps
-nav_order: 2
+nav_order: 10
 ---
 
 ## Terrain map

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Paint map
-parent: Color maps
-nav_order: 4
+nav_order: 9
 ---
 
 ## Paint map

@@ -6,6 +6,7 @@ nav_order: 7
 ---
 
 # Forest
+
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,6 +19,7 @@ nav_order: 7
 </details>
 
 ## Forest Scale
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -35,6 +37,7 @@ Command: `bc param fo sc`
 </details>
 
 ## Forest Amount
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -52,6 +55,7 @@ Command: `bc param fo am`
 </details>
 
 ## Forest Factor Overrides All Trees
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -68,6 +72,7 @@ Command: `bc param fo ffo`
 </details>
 
 ## Forestmap File
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -77,8 +82,9 @@ Path to a forestmap file to use.
 The forestmap controls the spawning of trees. By default this will only affect the Meadows and Plains trees (as in vanilla). You can also set "Forest Factor Overrides All Trees" to have forest factor (whether from vanilla procedural generation or the forestmap) control tree spawning in *all* biomes. i.e. You can have clearings in the Mistlands, the Swamps and even the Dark Forest! The minimap is also updated to show forest coverage on all biomes when this flag is active.
 
 ### Requirements
-See [Image Requirements](../image-requirements.html) for the size and format requirements.  
-8 bit grayscale Png of medium resolution would be a sensible format for a forestmap. Image is using black as "no forest" zone and white as "forest" zone.   
+
+See [Image Requirements](../faq.html#what-are-the-image-requirements-for-map-files) for the size and format requirements.  
+8 bit grayscale Png of medium resolution would be a sensible format for a forestmap. Image is using black as "no forest" zone and white as "forest" zone.
 
 <details class="console" markdown="block">
 <summary>
@@ -90,6 +96,7 @@ Command: `bc param fo fn`
 </details>
 
 ## Forestmap Multiply
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -107,6 +114,7 @@ Command: `bc param fo mu`
 </details>
 
 ## Forestmap Add
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }

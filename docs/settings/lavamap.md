@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Lava map
-parent: Grey maps
-nav_order: 13
+nav_order: 12
 ---
 
 ## Lava map

@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Heightmap
-parent: Settings
-nav_order: 3
+nav_order: 14
 ---
 
 # Heightmap
+
 {: .no_toc }
 
 The heightmap allows direct control of the base height values for the whole map. It can blend with, or replace the base part of the vanilla proceduraly generation.  
@@ -24,6 +24,7 @@ Contents
 ---
 
 ## Heightmap File
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -47,19 +48,21 @@ Command: `bc param h fn`
 <img src="../images/console/bc-param-h-fn.gif" />
 </details>
 
-
 ### Requirements
-See [Image Requirements](../image-requirements.html) for the size and format requirements.  
+
+See [Image Requirements](../faq.html#what-are-the-image-requirements-for-map-files) for the size and format requirements.  
 8 or 16 bit grayscale Png of medium to high resolution would be a sensible format for a heightmap.  
 
 ### Where to get Heightmaps
-* Craft them from scratch in some package. People have used Photoshop, Krita, GIMP, Blender to good affect. 
+
+* Craft them from scratch in some package. People have used Photoshop, Krita, GIMP, Blender to good affect.
 * [Google](https://www.google.com/search?q=heightmap%20images&tbm=isch&tbs=rimg%3ACUrn-Sh_19QfyYckcSKAP9V2W&biw=1838&bih=1019)
 * This very nice [Google Maps style page](https://tangrams.github.io/heightmapper) that will export heightmaps directly for any area on Earth.
 * [World Machine](https://www.world-machine.com/): This is highly advanced heightmap generating software that can do things like physical modelling of erosion. It can also generate assist in generating biome maps automatically as well.
-* [Gaea](https://quadspinner.com/): Similar to World Machine, might be quicker to get started with. 
+* [Gaea](https://quadspinner.com/): Similar to World Machine, might be quicker to get started with.
 
 ### Creation Hints
+
 * Ensure the ocean areas of the heightmap are pure black, not grey
 * Apply automatic contrast/levels to ensure the values are using the full range available
 * I recommend smoothing (blurring) the image to avoid any sharp changes in altitude
@@ -72,6 +75,7 @@ See [Image Requirements](../image-requirements.html) for the size and format req
   * [Ridges Amount](ridges.html#ridges-amount) 0%
 
 ## Heightmap Amount
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -90,6 +94,7 @@ Command: `bc param h am`
 </details>
 
 ## Heightmap Blend
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }
@@ -108,6 +113,7 @@ Command: `bc param h bl`
 </details>
 
 ## Heightmap Add
+
 {: .d-inline-block }
 Setting
 {: .label .label-green }

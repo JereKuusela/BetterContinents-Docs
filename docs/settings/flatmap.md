@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Flatmap
-parent: Settings
-nav_order: 5
+nav_order: 16
 ---
 
 # Flatmap
@@ -29,7 +28,7 @@ Path to a flatmap file to use.
 
 ### Requirements
 
-See [Image Requirements](../image-requirements.html) for the size and format requirements.  
+See [Image Requirements](../faq.html#what-are-the-image-requirements-for-map-files) for the size and format requirements.  
 8 bit grayscale Png of medium resolution would be a sensible format for a flatmap.  
 
 <details class="console" markdown="block">
